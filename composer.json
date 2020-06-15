@@ -1,5 +1,5 @@
 {
-  "name": "offsite-solutions/eisodos-db-pgsql",
+  "name": "offsite-solutions/eisodos-db-connector-pgsql",
   "description": "Eisodos DB Connector - PostgreSQL",
   "type": "library",
   "authors": [
@@ -27,8 +27,7 @@
   ],
   "require": {
     "php": ">=7.2.0",
-    "offsite-solutions/eisodos": "@dev",
-    "offsite-solutions/eisodos-db-connectors": "@dev"
+    "offsite-solutions/eisodos": "@dev"
   },
   "require-dev": {
   },

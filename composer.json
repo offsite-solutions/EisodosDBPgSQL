@@ -1,0 +1,42 @@
+{
+  "name": "offsite-solutions/eisodos-db-pgsql",
+  "description": "Eisodos DB Connector - PostgreSQL",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Offsite Solutions Ltd.",
+      "email": "info@offsite-solutions.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+        "type": "path",
+        "url": "../../Base",
+        "options": {
+            "symlink": true
+        }
+    },
+    {
+        "type": "path",
+        "url": "../../DBConnector",
+        "options": {
+            "symlink": true
+        }
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0",
+    "offsite-solutions/eisodos": "@dev",
+    "offsite-solutions/eisodos-db-connectors": "@dev"
+  },
+  "require-dev": {
+  },
+  "suggest": {
+  },
+  "autoload": {
+    "psr-0": {
+      "Eisodos\\": "src/"
+    }
+  }
+}

@@ -26,7 +26,8 @@
     }
   ],
   "require": {
-    "php": ">=7.2.0",
+    "php": ">=8.3.0",
+    "ext-pgsql": "*",
     "offsite-solutions/eisodos": "@dev"
   },
   "require-dev": {
